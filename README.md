@@ -9,8 +9,8 @@
 <p>
 get_pinyin($s, $quanpin = true, $daxie = false, $split = "") <br />
 string $s  输入文字<br />
-bool $quanpin  1:全拼；2:首字母<br />
-bool $daxie  1:大写；2:小写<br />
+bool $quanpin  1:全拼；0:首字母<br />
+bool $daxie  1:大写；0:小写<br />
 string $split  分隔符，默认为空。<br />
 </p>
 
